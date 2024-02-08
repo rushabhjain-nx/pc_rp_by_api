@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Creds Page</title>
+    <!-- Link Bootstrap CSS file -->
+    <link href="/static/bootstrap-4.0.0-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-color: #656565;">
+    <div class="container-fluid " style="margin-top: 10px;border-radius: 2px;" >
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#4B00AA ">
+            <div class="container-fluid">
+                <img src="/static/images/ntnx.svg" width="150" height="40" alt="">
+               
+                    <span  style="margin-right: 50%;color: white;" >
+                       Enter PC Information
+                      </span>
+                
+             
+            </div>
+        </nav>
+      </div>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                       
+                        <form method="POST" action="/process_form">
+                            <div class="mb-3">
+                                <label for="field1" class="form-label">Prism Central IP:</label>
+                                <input type="text" class="form-control" id="field1" name="field1" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="field2" class="form-label">Username:</label>
+                                <input type="text" class="form-control" id="field2" name="field2" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="field3" class="form-label">Password:</label>
+                                <input type="text" class="form-control" id="field3" name="field3" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block" style="background-color: #4B00AA;">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Link Bootstrap JS file (optional) -->
+    <script src="/static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

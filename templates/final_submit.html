@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Processing Snapshots</title>
+    <!-- Link Bootstrap CSS file -->
+    <link href="/static/bootstrap-4.0.0-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #656565;">
+    <div class="container-fluid " style="margin-top: 10px;border-radius: 2px;" >
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#4B00AA ">
+            <div class="container-fluid">
+                <img src="/static/images/ntnx.svg" width="150" height="40" alt="">
+               
+                    <span  style="margin-right: 50%;color: white;" >
+                       
+                      </span>
+                
+             
+            </div>
+        </nav>
+      </div>
+    <div class="container mt-5">
+        <h2>Selected VM UUIDs:</h2>
+        <ul class="list-group">
+            {% for item in selected_items %}
+            <li class="list-group-item">{{ item }}</li>
+            {% endfor %}
+        </ul>
+        <h3 class="mt-4">Snapshot Task Details:</h3>
+        <table class="table table-bordered mt-3" style="background-color: white;">
+            <thead>
+                <tr style="background-color: #4B00AA;color: white;">
+                    <th>VM UUID</th>
+                    <th>Snapshot Task UUID</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in final_data %}
+                <tr>
+                    <td>{{ item.vm_uuid }}</td>
+                    <td>{{ item.task_uuid }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <h5 class="mt-4">Snapshot Process is started for the above VMs. Please check PC for the corresponding task uuid.</h5>
+    </div>
+    <!-- Link Bootstrap JS file (optional) -->
+    <script src="/static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
