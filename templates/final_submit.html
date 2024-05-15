@@ -31,6 +31,7 @@
         <table class="table table-bordered mt-3" style="background-color: white;">
             <thead>
                 <tr style="background-color: #4B00AA;color: white;">
+                    <th>VM Name</th>
                     <th>VM UUID</th>
                     <th>Snapshot Task UUID</th>
                 </tr>
@@ -38,13 +39,15 @@
             <tbody>
                 {% for item in final_data %}
                 <tr>
+                    <td>{{ item.vm_name }}</td>
                     <td>{{ item.vm_uuid }}</td>
                     <td>{{ item.task_uuid }}</td>
+                 
                 </tr>
                 {% endfor %}
             </tbody>
         </table>
-        <h5 class="mt-4">Snapshot Process is started for the above VMs. Please check PC for the corresponding task uuid.</h5>
+        <h5 class="mt-4">Snapshot Process is started for the above VMs. Please check PE for the corresponding task uuid.</h5>
     </div>
     <!-- Link Bootstrap JS file (optional) -->
     <script src="/static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>

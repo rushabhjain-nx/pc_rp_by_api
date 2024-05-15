@@ -1,0 +1,54 @@
+Customer wants to schedule the VM snapshot task as per thier need.
+They do not have playbook or report license.
+This can be achieved by scripting. 
+Using v3 APIs, we cannot take snapshot, but VM recovery point can be take_snapshots
+PC does not allow to take VM recovery point of multiple vms
+Issue is : we cannot make recovery points for the VMs that are protected by some Protection Domain by PE.
+But we can take snapshot from PE even if Vm is protected by a PD!
+The current code works well for Vms not protectd by a PD and it captures vm recovery point
+now getting PE creds and use v2 / v1 apis to complete this task, its a better option!
+
+fetching vms from PE rather than PC. 
+
+
+
+
+
+use a common service account same for all pes and PC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LOL : by v2 api, we can take snapshot of fsvm, pcvm too !!
+
+
+thank god, we cannot take snapshot of cvm by any api 

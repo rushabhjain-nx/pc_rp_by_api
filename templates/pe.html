@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VMS Page</title>
+    <!-- Link Bootstrap CSS file -->
+    <link href="/static/bootstrap-4.0.0-dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Additional styling for checkboxes */
+        .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+    </style>
+</head>
+<body style="background-color: #656565;">
+    <div class="container-fluid " style="margin-top: 10px;border-radius: 2px;" >
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#4B00AA ">
+            <div class="container-fluid">
+                <img src="/static/images/ntnx.svg" width="150" height="40" alt="">
+               
+                    <span  style="margin-right: 50%;color: white;" >
+                        Prism Element List
+                      </span>
+                
+             
+            </div>
+        </nav>
+      </div>
+
+
+      <div class="container mt-5">
+        <h3 class="mb-4" style="color:white"></h3>
+        <h4 class="mb-3" style="color:white">Please enter credentials for these clusters</h4>
+        <table class="table table-bordered" style="background-color: white;">
+            <thead>
+                <tr style="background-color: #4B00AA;color: white;">
+                    <th>Cluster UUID</th>
+                    <th>Cluster Name</th>
+                    <th>Cluster IP</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                </tr>
+            </thead>
+            <tbody>
+                <form method="POST" action="/process_pe">
+                   
+                    {% for item in data %}
+                    <tr>
+                        <td>{{ item.uuid }}</td>
+                        <td>{{ item.name }}</td>
+                        <td>{{ item.ip }}</td>
+                        <td><input type="text" class="form-control" id="username{{ item.index }}" name="username{{ item.index }}" required></td>
+                        <td><input type="text" class="form-control" id="password{{ item.index }}" name="password{{ item.index }}" required></td>
+                        <input type="hidden" name="ip{{ item.index }}" value="{{ item.ip }}">
+                        <input type="hidden" name="uuid{{ item.index }}" value="{{ item.uuid }}">
+
+                    </tr>
+                   
+
+                    {% endfor %}
+            </tbody>
+        </table>
+        <button type="submit" class="btn btn-primary" style="background-color: #4B00AA;color: white;">Proceed</button>
+        </form>
+    </div>
+    
+    
+    <!-- Link Bootstrap JS file (optional) -->
+    <script src="/static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

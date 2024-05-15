@@ -1,0 +1,37 @@
+[
+    {
+        "vm_name": "Prism Central pc.2022.6.0.3",
+        "uuid": "e3e96df8-bc3e-4226-a26e-45a39102a9de",
+        "cip": "10.38.84.37"
+    },
+    {
+        "vm_name": "ntnx-objects-0db3ab-default-0",
+        "uuid": "e8899c50-9e6c-4dd6-aa89-deee34b3ffa4",
+        "cip": "10.38.84.37"
+    },
+    {
+        "vm_name": "NTNX-FA-BootcampFA",
+        "uuid": "0a87d02a-2f63-4957-9732-3e58317bf23e",
+        "cip": "10.38.84.37"
+    },
+    {
+        "vm_name": "ntnx-objects-0db3ab-ykljxqrfxh-envoy-0",
+        "uuid": "34f1a0a3-d501-4118-a3af-62fdb3fa741b",
+        "cip": "10.38.84.37"
+    },
+    {
+        "vm_name": "autoad",
+        "uuid": "8837f336-b171-4583-98fe-c42ffacc47ae",
+        "cip": "10.38.84.37"
+    },
+    {
+        "vm_name": "vm1",
+        "uuid": "9edaa824-be48-4717-9a0f-8b83a8235099",
+        "cip": "10.38.84.37"
+    },
+    {
+        "vm_name": "NTNX-BootcampFS-1",
+        "uuid": "b2e3a6de-bf15-4d69-a5df-c05d84037e70",
+        "cip": "10.38.84.37"
+    }
+]

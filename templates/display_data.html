@@ -28,7 +28,7 @@
       </div>
 
 
-    <div class="container mt-5">
+      <div class="container mt-5">
         <form method="POST" action="/final_submit">
             <h3 class="mb-4" style="color:white"></h3>
             <h4 class="mb-3" style="color:white">Select VMs to take snapshots</h4>
@@ -37,6 +37,7 @@
                     <tr style="background-color: #4B00AA;color: white;">
                         <th>VM Name</th>
                         <th>VM UUID</th>
+                        <th>Cluster IP</th>
                         <th>Select</th>
                     </tr>
                 </thead>
@@ -45,9 +46,13 @@
                     <tr>
                         <td>{{ item.vm_name }}</td>
                         <td>{{ item.uuid }}</td>
+                        <td>{{ item.cip }}</td>
                         <td>
                             <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="checkbox{{ loop.index }}" name="selected_items" value="{{ item.uuid }}" {% if item.uuid in selected_items %} checked {% endif %}>
+                                <input type="checkbox" class="custom-control-input" id="checkbox{{ loop.index }}" name="selected_items[]" value="{{ item.uuid }}|{{ item.cip }}|{{ item.vm_name }}" {% if item.uuid in selected_items %} checked {% endif %}>
+                                <input type="hidden" name="vm_name[]" value="{{ item.vm_name }}">
+                                <input type="hidden" name="vm_uuid[]" value="{{ item.uuid }}">
+                                <input type="hidden" name="vm_cip[]" value="{{ item.cip }}">
                                 <label class="custom-control-label" for="checkbox{{ loop.index }}"></label>
                             </div>
                         </td>
@@ -58,7 +63,10 @@
             <button type="submit" class="btn btn-primary" style="background-color: #4B00AA;color: white;">Proceed</button>
         </form>
     </div>
+    
+    
     <!-- Link Bootstrap JS file (optional) -->
     <script src="/static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+  
 </body>
 </html>

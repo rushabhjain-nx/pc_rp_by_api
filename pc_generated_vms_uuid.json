@@ -1,125 +1,120 @@
 [
     {
-        "vm_name": "AD_Core",
-        "uuid": "4aa3e75e-694d-4c4a-af3a-dd8ed40296e5"
+        "Vm_count": 23
     },
     {
-        "vm_name": "ScalingDemoVM-0-240122-232107",
-        "uuid": "ee0b7a9f-7434-4e01-8f4c-42b440abf082"
+        "vm_name": "Prism Central pc.2022.6.0.3",
+        "uuid": "c4f2afc6-a5af-4eba-9749-7075f815eaea",
+        "cip": "10.38.79.37"
     },
     {
-        "vm_name": "DNS_FS",
-        "uuid": "fa49b9fe-212e-4f8c-9bc3-f2f61ec4ce00"
+        "vm_name": "PC-NameOption-3",
+        "uuid": "f72de4e1-483b-4572-8797-863126dec053",
+        "cip": "10.38.79.37"
     },
     {
-        "vm_name": "Windows_VM_2016",
-        "uuid": "946fed5c-ae8f-4d8d-89c0-058f18ba72cd"
+        "vm_name": "PC-NameOption-1",
+        "uuid": "ee4d1816-fdd0-4ab9-95df-37d721635e2d",
+        "cip": "10.38.79.37"
     },
     {
-        "vm_name": "ScalingDemoVM-2-240122-233943",
-        "uuid": "d15f7acb-d076-4485-9673-cbc55e7b9926"
+        "vm_name": "AutoAD",
+        "uuid": "e4b80063-6338-4dc7-a4a8-ad73355e0c28",
+        "cip": "10.38.79.37"
     },
     {
-        "vm_name": "NTNX-FileServer-1",
-        "uuid": "068b3c01-edb0-4fad-8f53-3aad0d1639bc"
+        "vm_name": "PC-NameOption-2",
+        "uuid": "0246ae1c-6d2c-43a2-9324-352718d17042",
+        "cip": "10.38.79.37"
     },
     {
-        "vm_name": "AutoDC VM",
-        "uuid": "53dfa9e3-4e3f-4ef0-90aa-43512339dddb"
+        "vm_name": "NTNX-FA-BootcampFA",
+        "uuid": "2916c4bc-7c3f-45ba-9b34-0b5944d0df43",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "PC-VM-2",
-        "uuid": "539e78bd-ccd2-41e8-9cdd-077bdce5b8f9"
+        "vm_name": "User01-WinToolsVM",
+        "uuid": "bcf2bdc6-c4b0-4369-8261-778cf7800d8d",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "Mini-PR-Rush-DND",
-        "uuid": "f0738507-8260-41c7-899c-f9b0c83155a8"
+        "vm_name": "PrismProLabUtilityServer",
+        "uuid": "ae2ecb58-50de-4563-9dc9-50ff372401b0",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "NTNX-FileServer-2",
-        "uuid": "ab064599-339c-4487-825a-eb1c31f2b14f"
+        "vm_name": "User10-WinToolsVM",
+        "uuid": "18091412-01af-4130-a752-f2cd5ef5ca87",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "Move VM",
-        "uuid": "dcbda027-763f-46f9-9325-36b0e58b3e90"
+        "vm_name": "User08-WinToolsVM",
+        "uuid": "8a145969-7e38-4fc6-bb74-df1c2f6c8b3b",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "NTNX-FileServer-3",
-        "uuid": "6d554a7f-7789-4234-83dc-58ad6ce8057c"
+        "vm_name": "NTNX-BootcampFS-1",
+        "uuid": "b5ef8226-45c9-4ca4-b09e-c8a554eadafe",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "PC-VM-1",
-        "uuid": "dbc81857-c421-4206-af93-20a52e596cfc"
+        "vm_name": "Prism Central pc.2022.6.0.3",
+        "uuid": "1e9f6f84-dcb0-4465-a6ba-0199ab3c6f5c",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "PC-VM-3",
-        "uuid": "1454d7db-9c77-4397-9621-fe819d5e492a"
+        "vm_name": "CentOS1",
+        "uuid": "e89ca30f-8459-4de1-ae38-36ca4a459d5b",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "test-vm",
-        "uuid": "31b4bfb7-96d2-4cf4-b7ab-02e8aca049bf"
+        "vm_name": "New-VM",
+        "uuid": "c918e70c-1c3b-49be-aba7-149a366f17ea",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "ScalingDemoVM-1-240122-233943",
-        "uuid": "e1edd0af-48db-4c18-94a4-8a44efccd9dd"
+        "vm_name": "AutoAD",
+        "uuid": "6ea4218e-eaa3-4eaa-95ab-68a2fcbf962e",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "VM_from_template",
-        "uuid": "d6f36cf0-9068-49aa-ae6a-ac14f3db07fa"
+        "vm_name": "User09-WinToolsVM",
+        "uuid": "b90b540d-a520-4516-82d6-5d95fabd48dd",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "VM-240122-024024",
-        "uuid": "2c0bf235-6ae5-43d0-a506-e7fcf278632a"
+        "vm_name": "User05-WinToolsVM",
+        "uuid": "99c91e88-c2ff-42b3-bef6-2716e59faf16",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "Windows 2012 VM",
-        "uuid": "df293f22-887f-4c36-9378-ab200ae33a9e"
+        "vm_name": "as",
+        "uuid": "3d6e880e-f9ec-4d1d-aaf5-c0e332598615",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "Rushabh-AD-server-DND",
-        "uuid": "7e033ef8-dd83-4510-b3a0-27cd487f3cc8"
+        "vm_name": "satndalone",
+        "uuid": "0450713e-892c-4fe4-9784-6133d4fecf19",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "DSS-2",
-        "uuid": "f0d44a02-9382-4851-879a-ac148031ae29"
+        "vm_name": "X-Ray",
+        "uuid": "aeab8a47-158b-4ed8-aa6d-a7d3c5ef3828",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "VM-240122-022044",
-        "uuid": "497ea6be-b1dc-463e-aef4-ce9af45c126e"
+        "vm_name": "Windows-Control",
+        "uuid": "b25184b3-7d30-47f8-9e86-6d89782a3ced",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "test-vm",
-        "uuid": "d41a0280-93d5-4fa2-a551-204b461bf233"
+        "vm_name": "User07-WinToolsVM",
+        "uuid": "c3adbab5-8f9c-4b90-8dd2-5b9d782d37de",
+        "cip": "10.38.82.37"
     },
     {
-        "vm_name": "test",
-        "uuid": "9fb2813d-a7f9-4777-8671-cd36d7fb7db7"
-    },
-    {
-        "vm_name": "vm_name",
-        "uuid": "ed5df61d-4959-4c16-8b53-522ecb0c761e"
-    },
-    {
-        "vm_name": "VM-@@(calm_time)@@",
-        "uuid": "284e41cd-1833-473f-8b5e-1992f0aa12cc"
-    },
-    {
-        "vm_name": "Project-PS-Rush-DND",
-        "uuid": "9af15ec6-4a8c-47a1-80f7-0c8dc5b51b37"
-    },
-    {
-        "vm_name": "Move VM",
-        "uuid": "f52321c5-63ed-4286-9bc8-a7181dc34dce"
-    },
-    {
-        "vm_name": "suri-ad",
-        "uuid": "1940e1ee-84dd-453c-87ea-dba9db847344"
-    },
-    {
-        "vm_name": "VM-240122-032133",
-        "uuid": "d9c40df9-a28b-4e4f-85ba-aab8f827a448"
-    },
-    {
-        "Vm_count": 30
+        "vm_name": "DDC",
+        "uuid": "bc63f387-89e0-45d9-8d78-de6087509380",
+        "cip": "10.38.82.37"
     }
 ]

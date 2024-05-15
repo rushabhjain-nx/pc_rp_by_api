@@ -1,6 +1,7 @@
 [
     {
-        "vm_uuid": "fa49b9fe-212e-4f8c-9bc3-f2f61ec4ce00",
-        "task_uuid": "049e2256-0806-437b-94f5-07b5c76a350f"
+        "vm_uuid": "9edaa824-be48-4717-9a0f-8b83a8235099",
+        "vm_name": "vm1",
+        "task_uuid": "57c9449f-7ad3-4ec1-9427-b3f6d84f1bd9"
     }
 ]
